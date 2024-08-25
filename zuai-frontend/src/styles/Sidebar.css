@@ -1,0 +1,28 @@
+.Sidebar {
+    width: 100px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.Sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Sidebar li {
+    margin: 20px 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.icon-home::before { content: "\f015"; }
+.icon-resource::before { content: "\f00a"; }
+.icon-exams::before { content: "\f02d"; }
+.icon-settings::before { content: "\f013"; }
+.icon-logout::before { content: "\f08b"; }

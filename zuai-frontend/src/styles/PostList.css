@@ -1,0 +1,91 @@
+
+.post-list-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .post-list-items {
+    margin-bottom: 20px;
+  }
+  
+  .post-list-items h2 {
+    margin-top: 0;
+  }
+  
+  .post-list-items ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-list-items li {
+    margin-bottom: 10px;
+  }
+  
+  .post-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-content {
+    flex: 1;
+  }
+  
+  .post-link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .post-link h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .post-link p {
+    font-size: 14px;
+  }
+  
+  .post-link:hover {
+    text-decoration: underline;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    color: #ff4d4d;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .delete-icon:hover {
+    color: #cc0000;
+  }
+  
+  .create-post-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .create-post-container .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .create-post-container .btn:hover {
+    background-color: #0056b3;
+  }
+  
